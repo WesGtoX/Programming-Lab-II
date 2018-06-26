@@ -1,0 +1,41 @@
+Função ou Modularização
+
+É um conjunto de comandos que irá compor um algoritmo
+ou programa. Trata-se de uma forma de quebrar o código
+de um algoritmo ou programa em partes menores (módulos)
+Uma função deve possuir um tipo de retorno, um nome e
+receber ou não parâmetros.
+As funções podem ser do tipo:
+	void	- quando não há retorno de valor
+	float	- quando a função retornará um numero real
+	char	- quano a função retornará um caractere
+	É mais comum uma função retornar um int ou um float
+	
+Os parâmetros passados para uma função podem ser de 
+qualquer tipo de dado possível para uma variável e 
+podem ser passados por valor ou por referência.
+
+Sintaxe:
+tipo_função nome_função(tipo_parâmetro1 nome_parâmetro1 tipo_parâmetro2 nome_parâmetro2 tipo_parâmetron nome_parâmetron) {
+	//código da função
+	return //quando não for do tipo void precisa do return
+}
+
+
+VARIÁVEL GLOBAL E LOCAL
+Quando uma variável é criada fora de uma função ela é considerada
+global, assim, ter visibilidade em qualquer função, ou seja, ela
+pode ser utilizada em qualquer função.
+Quando uma variável é criada dentro de uma função ela é considerada
+local, assim ter visibilidade apenas na função que ela foi criada,
+ou seja, ela só poderá ser utilizada na função onde ela foi criada.
+
+float a;
+
+main() {
+	int x;		//variavel declarada global
+}
+
+void teste() {
+	int x;		//outra variavel declarada local
+}

@@ -1,0 +1,75 @@
+ESTRUTURA DE DADOS
+Uma estrutura de dados é um conjunto de variável, geralmente de diferentes
+tipos de dados, gerenciado por uma única variável (também denominado registro)
+Uma estrutura de dados permite, portanto, resolver algumas limitações 
+inerentes a vetor e matriz onde os elemnetos devem ser do mesmo tipo de dado.
+
+Declaração de tipo de estrutura de dados
+Sintaxe:
+
+struct nome_da_estrutura {
+	tipo_elemento nome_elemento1;
+	tipo_elemento nome_elemento2;
+	tipo_elemento nome_elemento3;
+};
+
+Pode ser definido da maneira abaixo quando deseja-se declarar o tipo 
+de estutura de dados e a variável estrutura de dados ao mesmo tempo.
+Geralmente os compiladores devolvem um aviso, como se esse procedimento
+não fosse uma boa prática.
+
+struct {
+	tipo_elemento nome_elemento1;
+	tipo_elemento nome_elemento2;
+	tipo_elemento nome_elemento3;
+} nome_da_estrutura;
+
+Declaração da estrutura de dados
+struct nome_da_estrutura nome_da_variável_estrutura
+
+Manipular uma estrutura de daos
+struct nome_da_variável_estrutura.nome_elemento
+
+Exemplo:
+declaração do tipo estrutura de dados
+struct carro {
+	char placa[8], modelo[20]:
+	modelo placa[20];
+	int potencia;
+	float valor;
+};
+
+declaração da variável estrutura de dados
+struct carro terrestre[5];
+
+gets(terrestre[0].placa);
+...
+gets(terrestre[0].modelo);
+...
+scanf("%d", &terrestre[0]);
+...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+Passagem de vetores e matrizes para a função como parâmetro por valor
+
+Sintaxe:
+	tipo_função nome_função(tipo nome_vetor[], ...) {
+		//instruções da função
+	}
+	
+//chamada da função passando um vetor como parâmetro
+nome_função(nome_vetor)
+
+Quando matriz
+Sintaxe:
+tipo_função nome_função(tipo nome_matriz[linha][coluna]) {
+	//instruções da função
+}
+
+//chamada da função passando uma matriz como parâmetro
+nome_função(nome_matriz)
